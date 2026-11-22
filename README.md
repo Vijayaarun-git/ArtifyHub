@@ -4,9 +4,13 @@ ArtifyHub is a full-stack digital art marketplace designed to connect digital ar
 
 The platform also includes role-based dashboards, social interactions, notifications, and curator management tools to provide a complete digital art marketplace experience.
 
-**Repository:** [Vijayaarun-git/ArtifyHub](https://github.com/Vijayaarun-git/ArtifyHub)
+## Project Demo
 
----
+Watch the complete demonstration of **ArtifyHub – Digital Art Marketplace**.
+
+[![ArtifyHub Project Demo](https://img.youtube.com/vi/q22JeKvSMf0/maxresdefault.jpg)](https://youtu.be/q22JeKvSMf0)
+
+[Click here to watch the full project demonstration](https://youtu.be/q22JeKvSMf0)
 
 ## Features
 
@@ -337,14 +341,6 @@ Potential improvements for future versions include:
 - Enhanced marketplace discovery and personalization.
 
 ---
-
-## Project Demo
-
-Watch the complete demonstration of **ArtifyHub – Digital Art Marketplace**.
-
-[![ArtifyHub Project Demo](https://img.youtube.com/vi/q22JeKvSMf0/maxresdefault.jpg)](https://youtu.be/q22JeKvSMf0)
-
-[Click here to watch the full project demonstration](https://youtu.be/q22JeKvSMf0)
 
 ## Contributing
 
