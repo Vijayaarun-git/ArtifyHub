@@ -1,0 +1,36 @@
+/* Dark mode overrides for Tailwind utility classes */
+.dark .bg-white { background-color: var(--color-surface) !important; }
+.dark .bg-white\/90 { background-color: rgba(var(--color-surface-rgb, 30,41,59), 0.9) !important; }
+.dark .bg-slate-50 { background-color: var(--color-surface-secondary) !important; }
+.dark .bg-slate-100 { background-color: var(--color-surface-tertiary) !important; }
+.dark .text-slate-900 { color: var(--color-text-primary) !important; }
+.dark .text-slate-600 { color: var(--color-text-secondary) !important; }
+.dark .text-slate-700 { color: var(--color-text-secondary) !important; }
+.dark .text-slate-500 { color: var(--color-text-muted) !important; }
+.dark .text-slate-400 { color: #CBD5E1 !important; }
+.dark .border-slate-200 { border-color: var(--color-border) !important; }
+.dark .border-slate-100 { border-color: var(--color-border-hover) !important; }
+.dark .shadow-2xl { box-shadow: var(--shadow-card) !important; }
+.dark .shadow-md { box-shadow: var(--shadow-subtle) !important; }
+.dark .hover\:bg-white:hover { background-color: var(--color-surface) !important; }
+.dark .hover\:bg-slate-50:hover { background-color: var(--color-surface-secondary) !important; }
+
+/*
+ * Preserve explicit text-white on dark background sections.
+ * The global h1-h4 { color: var(--ink) } rule overrides Tailwind's text-white,
+ * so we force headings with .text-white to stay white.
+ */
+.text-white { color: #FFFFFF !important; }
+.bg-slate-900 h1,
+.bg-slate-900 h2,
+.bg-slate-900 h3,
+.bg-slate-900 h4,
+.bg-slate-900 .font-display {
+  color: #FFFFFF !important;
+}
+.bg-slate-900 .text-slate-400 {
+  color: #CBD5E1 !important;
+}
+.bg-slate-900 .text-indigo-400 {
+  color: #818CF8 !important;
+}

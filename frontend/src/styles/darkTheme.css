@@ -1,0 +1,37 @@
+/* Dark Theme Overrides */
+:root.dark {
+  /* Surfaces */
+  --color-canvas: #0F172A; /* dark slate-900 */
+  --color-surface: #1E293B; /* dark slate-800 */
+  --color-surface-secondary: #334155; /* dark slate-700 */
+  --color-surface-tertiary: #475569; /* dark slate-600 */
+
+  /* Typography Colors */
+  --color-text-primary: #F1F5F9; /* light gray */
+  --color-text-secondary: #CBD5E1; /* lighter */
+  --color-text-muted: #94A3B8;
+  --color-text-inverse: #0F172A;
+
+  /* Accent */
+  --color-accent: #818CF8; /* lighter indigo */
+  --color-accent-hover: #6366F1;
+  --color-accent-soft: #3730A3; /* dark indigo */
+  --color-accent-border: #A5B4FC;
+
+  /* Feedback */
+  --color-success: #34D399; /* emerald */
+  --color-success-soft: #064E3B;
+  --color-success-border: #10B981;
+  --color-warning: #FBBF24; /* amber */
+  --color-warning-soft: #78350F;
+  --color-warning-border: #F59E0B;
+  --color-danger: #F87171; /* rose */
+  --color-danger-soft: #7F1D1D;
+  --color-danger-border: #EF4444;
+
+  /* Borders & Shadows */
+  --color-border: #334155;
+  --color-border-hover: #475569;
+  --shadow-subtle: 0 1px 2px 0 rgba(255,255,255,0.04);
+  --shadow-card: 0 4px 16px -2px rgba(255,255,255,0.05), 0 2px 6px -1px rgba(255,255,255,0.03);
+}

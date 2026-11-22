@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Frontend build output
+build/
+dist/
+
+# Backend build output
+target/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# OS and package-manager files
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
